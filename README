@@ -1,0 +1,18 @@
+App torne-se um programador
+
+Maneira de ficar mais próximo dos meus alunos
+
+Para rodar o projeto usar:
+	npm install
+
+	./node_modules/titanium/bin/titanium build
+
+	ou 
+
+	./run.sh
+
+path sdk:
+  open /Users/user/Library/Application\ Support/Titanium/mobilesdk/osx/
+
+----------------------------------
+Torne-se um programador Copyright (c) Didox Business & Technology.

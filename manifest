@@ -1,0 +1,10 @@
+#appname:Torne-se um programador
+#appid:com.didox.programador
+#type:ipad
+#guid:c651f1c8-32c7-4854-9b3e-50cf53ce53ac
+#version:1.0
+#publisher:Torne-se um programador
+#url:https://www.facebook.com/Projeto-Torne-se-um-programador-1588864738032373/
+#image:appicon.png
+#desc:not specified
+android:hardwareAccelerated="true"

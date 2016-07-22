@@ -1,0 +1,9 @@
+build.log
+tmp
+._*
+.DS_Store
+.project
+build
+node_modules/
+plugins/
+.DS_Store

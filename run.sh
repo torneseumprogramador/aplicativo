@@ -1,0 +1,1 @@
+./node_modules/titanium/bin/titanium build -p iphone

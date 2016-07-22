@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Torne-se Index</title>
+  </head>
+  <body class="home">
+    <header>
+      <div id="logo">
+        <a href="#" class="cancel-busca">
+          <img src="images/icon.png" width="30" heigth="30">
+        </a>
+      </logo>
+      </div>
+      <div id="nome_site">
+        <a href="#">Projeto torne-se um programador</a>
+      </div>
+      <div id="lupa">
+        <a href="javascript:void(0);">
+          <img src="images/lupa.png" width="30" heigth="30">
+        </a>
+      </div>
+      <div id="findAula">
+        <input type="text" id="aula" placeholder="Procurar aulas">
+        <a href="javascript:void(0);" class="button">Buscar</a>
+      </div>
+    </header>
+    <div class="load_container">
+      <p class="carregando" style="display:none">Carregando</p>
+    </div>
+    <div class="container">
+      <div class="top-image">
+        <img class="image-capa" src="images/facebookCover.png">
+      </div>
+      <p>
+        Com ele você irá aprender tudo que precisa para se tornar um programador.
+      </p>
+      <p>
+        <u>Toda <b>Quarta-feira</b> uma nova aula.</u>
+      </p>
+      <br>
+      <div class="buttons">
+        <button type="button" onclick="app.openInternalLink('videos.html');">Aulas</button>
+        <button type="button" onclick="app.openUrl('https://github.com/Didox/torne-se-programador');">Códigos</button>
+        <button type="button" onclick="app.openInternalLink('sobre.html');">Sobre</button>
+        <button type="button" onclick="app.openUrl('http://www.torneseumprogramador.com.br');">WebSite</button> 
+        <button type="button" onclick="app.openUrl('http://www.torneseumprogramador.com.br/vagas');">Vagas</button>
+      </div>
+    </div>
+    <br>
+    <div class="container form">
+      <div class="top">
+        <h3>Futuro do projeto</h3>
+        <a href="#" onclick="app.openUrl('http://www.torneseumprogramador.com.br/sobre/objetivo');">
+          <img class="image-tornese" src="images/torne-se-image.jpg">
+        </a>
+        <p>Conheça o que planejo para meus alunos</p>
+      </div>
+    </div>
+    <br><br><br>
+    <script src="js/zepto.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script type="text/javascript" src="http://www.torneseumprogramador.com.br/javascripts/data/data.js"></script>
+    <script>app.updateApp();</script>
+    <script>app.messageForUser();</script>
+  </body>
+</html>

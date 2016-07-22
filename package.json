@@ -1,0 +1,6 @@
+{
+  "name": "torne-se-application",
+  "dependencies": {
+    "titanium": "5.0.5"
+  }
+}
